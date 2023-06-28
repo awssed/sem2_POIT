@@ -1,0 +1,21 @@
+﻿Сборка начата 07.02.2023 12:11:08.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\2сем\ОАИП\Лабораторные\1ЛАБА_ОАИП\ДОП1.1\ДОП1.1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ДОП1.1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Создание каталога "x64\Debug\ДОП 2.1.tlog\".
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ДОП 2.1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ДОП 2.1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ДОП 2.1.tlog\ДОП 2.1.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\2сем\ОАИП\Лабораторные\1ЛАБА_ОАИП\ДОП1.1\ДОП1.1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\2сем\ОАИП\Лабораторные\1ЛАБА_ОАИП\ДОП1.1\ДОП1.1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ДОП1.1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.02
