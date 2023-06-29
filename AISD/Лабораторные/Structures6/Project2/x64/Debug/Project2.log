@@ -1,0 +1,51 @@
+﻿Сборка начата 21.04.2023 12:01:54.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Project2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "x64\Debug\Project2.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\Project2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(39,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(40,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(107,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(157,5): error C2664: "void ht_insert(HashTable *,char *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(157,19): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(80,6): message : см. объявление "ht_insert"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(157,5): message : при попытке сопоставить список аргументов "(HashTable *, const char [2], const char [14])"
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(158,5): error C2664: "void ht_insert(HashTable *,char *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(158,19): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(80,6): message : см. объявление "ht_insert"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(158,5): message : при попытке сопоставить список аргументов "(HashTable *, const char [2], const char [15])"
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(159,5): error C2664: "void print_search(HashTable *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(159,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(134,6): message : см. объявление "print_search"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(159,5): message : при попытке сопоставить список аргументов "(HashTable *, const char [2])"
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(160,5): error C2664: "void print_search(HashTable *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(160,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(134,6): message : см. объявление "print_search"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(160,5): message : при попытке сопоставить список аргументов "(HashTable *, const char [2])"
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(161,5): error C2664: "void print_search(HashTable *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(161,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(134,6): message : см. объявление "print_search"
+       D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(161,5): message : при попытке сопоставить список аргументов "(HashTable *, const char [2])"
+     1>Сборка проекта "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Project2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Project2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(39,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(40,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(107,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(157,5): error C2664: "void ht_insert(HashTable *,char *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(158,5): error C2664: "void ht_insert(HashTable *,char *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(159,5): error C2664: "void print_search(HashTable *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(160,5): error C2664: "void print_search(HashTable *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project2\Source.cpp(161,5): error C2664: "void print_search(HashTable *,char *)": невозможно преобразовать аргумент 2 из "const char [2]" в "char *"
+
+    Предупреждений: 0
+    Ошибок: 8
+
+Прошло времени 00:00:00.49

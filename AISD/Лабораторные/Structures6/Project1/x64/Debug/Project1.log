@@ -1,0 +1,34 @@
+﻿Сборка начата 20.04.2023 22:42:13.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "x64\Debug\Project1.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\Project1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(9,13): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(9,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(9,32): error C2238: непредвиденные лексемы перед ";"
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(19,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(25,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Сборка проекта "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Project1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(19,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+
+
+       "D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(9,13): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(9,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(9,32): error C2238: непредвиденные лексемы перед ";"
+         D:\Учёба\2сем\Алгоритмы и структуры данных\Лабораторные\Structures6\Project1\Source.cpp(25,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+
+    Предупреждений: 1
+    Ошибок: 4
+
+Прошло времени 00:00:00.47
