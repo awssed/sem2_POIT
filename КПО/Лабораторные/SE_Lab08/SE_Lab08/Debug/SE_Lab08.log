@@ -1,0 +1,30 @@
+﻿Сборка начата 17.04.2023 18:45:21.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\SE_Lab08.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_Lab08.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\Source.cpp(18,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\Source.cpp(19,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\Source.cpp(20,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\Debug\SE_Lab08.exe" /INCREMENTAL /ILK:"Debug\SE_Lab08.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\Debug\SE_Lab08.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\Debug\SE_Lab08.lib" /MACHINE:X86 Debug\Source.obj
+         SE_Lab08.vcxproj -> D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\Debug\SE_Lab08.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab08.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab08.tlog\SE_Lab08.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\SE_Lab08.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\SE_Lab08.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\Source.cpp(18,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\Source.cpp(19,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab08\SE_Lab08\Source.cpp(20,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:01.13

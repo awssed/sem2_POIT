@@ -1,0 +1,32 @@
+﻿Сборка начата 02.04.2023 21:04:12.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_Lab06L.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\Debug\SE_Lab06L.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt SE_Lab06L.cpp
+         SE_Lab06L.cpp
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(10,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(28,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(56,23): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(103,22): warning C4018: <: несоответствие типов со знаком и без знака
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\Lib.exe /OUT:"D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\Debug\SE_Lab06L.lib" /NOLOGO /MACHINE:X86 Debug\SE_Lab06L.obj
+         SE_Lab06L.vcxproj -> D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\Debug\SE_Lab06L.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab06L.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab06L.tlog\SE_Lab06L.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(10,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(28,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(56,23): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\2сем\КПО\Лабораторные\SE_Lab06S\SE_Lab06L\SE_Lab06L.cpp(103,22): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:01.42
